@@ -91,7 +91,6 @@ void MainMenu::handleMouse(sf::Vector2i mousepos)
     else if(bttn.getGlobalBounds().contains(mpos)){
         //if(CM.tryToConnect(f1.getContent(),stoi(f2.getContent())));
             isMenuRunning = false;
-            //window.setView(GMView);
     }
 
 }
